@@ -1,0 +1,36 @@
+{
+    "name": "react-render-each",
+    "version": "1.0.1",
+    "description": "create list in react without key.",
+    "main": "/lib/index.js",
+    "types": "/lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AsadRazaJutt1/react-render-each.git"
+    },
+    "keywords": [
+        "react",
+        ".map",
+        "list"
+    ],
+    "author": "Asad Raza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AsadRazaJutt1/react-render-each/issues"
+    },
+    "homepage": "https://github.com/AsadRazaJutt1/react-render-each#readme",
+    "devDependencies": {
+        "@types/react": "^18.2.52",
+        "typescript": "^5.3.3"
+    },
+    "files": [
+        "lib/**/*"
+    ],
+    "dependencies": {
+        "react": "^18.2.0"
+    }
+}
