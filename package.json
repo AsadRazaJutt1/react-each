@@ -1,6 +1,6 @@
 {
     "name": "react-render-each",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "create list in react without key.",
     "main": "/lib/index.js",
     "types": "/lib/index.d.ts",
