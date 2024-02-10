@@ -51,6 +51,9 @@ const List = () => {
 You don't need to add key in every .map funcation.
 Most important with react-render-each your component much clean.
 ````javascript
+
+import { Each } from "react-render-each";
+
 const products = [
     {
         name: "product 1",
