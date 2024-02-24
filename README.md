@@ -70,7 +70,7 @@ const products = [
 ];
 
 
-const Product = ({data}) => {
+const Product = (data) => {
     return (
         <>
             <div>{data.name}</div>
