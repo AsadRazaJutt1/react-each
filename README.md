@@ -70,7 +70,8 @@ const products = [
 ];
 
 
-const Product = (data) => {
+const Product = (data, props) => {
+    console.log(props);
     return (
         <>
             <div>{data.name}</div>
@@ -79,10 +80,10 @@ const Product = (data) => {
     )
 }
 
-const List = () => {
+const List = (props) => {
   return (
     <section>
-      <Each of={producrs} render={Product} />
+      <Each of={producrs} render={Product} {...{props}}/>
     </section>
   );
 }
